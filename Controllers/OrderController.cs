@@ -30,7 +30,7 @@ namespace AloeExpress.Controllers
                 var order = new Order
                 {
                     Created = DateTime.Now,
-                    RecipientId = model.RecipientId,
+                    RecipientFullName = model.RecipientFullName,
                     IsDeleted = false
                 };
                 _orderService.Create(order);

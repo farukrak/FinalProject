@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Adil\\source\\repos\\AloeExpress\\AloeExpress\\AloeExpress.csproj": {}
+    "C:\\Users\\Adil\\Desktop\\Totally new thingy\\AloeExpress\\AloeExpress.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Adil\\source\\repos\\AloeExpress\\AloeExpress\\AloeExpress.csproj": {
+    "C:\\Users\\Adil\\Desktop\\Totally new thingy\\AloeExpress\\AloeExpress.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Adil\\source\\repos\\AloeExpress\\AloeExpress\\AloeExpress.csproj",
+        "projectUniqueName": "C:\\Users\\Adil\\Desktop\\Totally new thingy\\AloeExpress\\AloeExpress.csproj",
         "projectName": "AloeExpress",
-        "projectPath": "C:\\Users\\Adil\\source\\repos\\AloeExpress\\AloeExpress\\AloeExpress.csproj",
+        "projectPath": "C:\\Users\\Adil\\Desktop\\Totally new thingy\\AloeExpress\\AloeExpress.csproj",
         "packagesPath": "C:\\Users\\Adil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Adil\\source\\repos\\AloeExpress\\AloeExpress\\obj\\",
+        "outputPath": "C:\\Users\\Adil\\Desktop\\Totally new thingy\\AloeExpress\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Adil\\AppData\\Roaming\\NuGet\\NuGet.Config",

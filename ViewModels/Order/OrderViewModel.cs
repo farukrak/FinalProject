@@ -14,9 +14,14 @@ namespace AloeExpress.ViewModels.Order
         public int Id { get; set; }
         public int RecipientId { get; set; }
         [Display(Name ="Product")]
+        [Required]
         public ProductAddViewModel Product { get; set; }
         [Display(Name ="Product Type")]
+        [Required]
         public ProductTypeAddViewModel ProductType { get; set; }
         public bool IsDeleted { get; set; }
+        [Required]
+        [Display(Name ="Recipient's full name")]
+        public string RecipientFullName { get; set; }
     }
 }

@@ -9,7 +9,6 @@ namespace AloeExpress.Models
 {
     public class Order : IEntity<int>
     {
-        [Display(Name = "Order Id")]
         public int Id { get; set; }
         public int RecipientId { get; set; }
         [Display(Name = "Creation Date")]
@@ -18,7 +17,9 @@ namespace AloeExpress.Models
         public virtual Product Product { get; set; }
         [Display(Name = "Type Of Product")]
         public virtual ProductType ProductType { get; set; }
-        [Display(Name ="Deleted?")]
+        [Display(Name = "Deleted?")]
         public bool IsDeleted { get; set; }
+        [Display(Name ="Recipient's full name")]
+        public string RecipientFullName { get; set; }
     }
 }

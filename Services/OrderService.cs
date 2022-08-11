@@ -16,10 +16,12 @@ namespace AloeExpress.Services
         }
         public void Create(Order order)
         {
+
             var ordr = new Order
             {
                 Created = DateTime.Now,
-                RecipientId = order.RecipientId,
+                RecipientFullName = order.RecipientFullName,
+                RecipientId = _context.Recipients.Find(order.RecipientFullName).SecurityCode,
                 Product = order.Product,
                 ProductType = order.ProductType,
                 IsDeleted = order.IsDeleted
@@ -33,6 +35,7 @@ namespace AloeExpress.Services
         {
             var ordr = _context.Orders.FirstOrDefault(x => x.Id == order.Id);
 
+            ordr.RecipientFullName = order.RecipientFullName;
             ordr.RecipientId = order.RecipientId;
             ordr.Product = order.Product;
             ordr.ProductType = order.ProductType;

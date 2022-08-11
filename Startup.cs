@@ -38,7 +38,7 @@ namespace AloeExpress
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
               .AddCookie(options =>
               {
-                  options.LoginPath = new PathString("/Account/Login");
+                  options.LoginPath = new PathString("/Account/Home");
                   options.AccessDeniedPath = new PathString("/Home/Index");
               });
 
